@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Chuyen IF thanh SWITCH</title>
+</head>
+<body>
+<h3>Chuyen IF thanh SWITCH</h3>
+<!--
+if (browser == 'Edge') {
+    alert("You've got the Edge!");
+} else if (browser == 'Chrome' || browser == 'Firefox' || browser == 'Safari' || browser == 'Opera') {
+    alert('Okay we support these browsers too');
+} else {
+    alert('We hope that this page looks ok!');
+}
+--!>
+<script>
+    let brower = prompt("Nhap");
+    switch (brower) {
+        case 'Edge': alert('You are got the Edge ! ' ); break;
+        case 'Chrome' || 'Firefox' || 'Safari' || 'Opera': alert(' Okay we support these browsers too ! ' );
+        break;
+        default: alert('We hope that this page looks ok!');break;
+    }
+</script>
+</body>
+</html>
